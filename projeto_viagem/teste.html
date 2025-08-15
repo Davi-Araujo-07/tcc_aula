@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência de Viagens</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        nav {
+            background: #0056b3;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        main {
+            padding: 20px;
+        }
+        .destinos {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .destino {
+            background: white;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .destino img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Agência de Viagens
+    </header>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Destinos</a>
+        <a href="#">Contato</a>
+    </nav>
+    <main>
+        <h1>Escolha seu próximo destino!</h1>
+        <div class="destinos">
+            <div class="destino">
+                <img src="https://via.placeholder.com/300" alt="Praia">
+                <h2>Pacote Praia</h2>
+                <p>Desfrute do sol e do mar com nosso pacote especial.</p>
+                <button>Comprar</button>
+            </div>
+            <div class="destino">
+                <img src="https://via.placeholder.com/300" alt="Montanha">
+                <h2>Pacote Montanha</h2>
+                <p>Aventure-se nas trilhas e paisagens incríveis.</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &copy; 2025 Agência de Viagens - Todos os direitos reservados.
+    </footer>
+</body>
+</html>
